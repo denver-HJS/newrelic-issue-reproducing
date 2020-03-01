@@ -2,9 +2,10 @@
   "name": "newrelic-issue-reproducing",
   "version": "1.0.0",
   "description": "A repository for reproducing NewRelic Node Agent issues",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env NEW_RELIC_APP_NAME=issue-reproducing node main.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/denver-HJS/newrelic-issue-reproducing#readme",
   "dependencies": {
     "got": "^10.6.0",
+    "https-proxy-agent": "^4.0.0",
     "newrelic": "^6.4.2"
   }
 }
