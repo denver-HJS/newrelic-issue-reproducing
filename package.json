@@ -1,0 +1,26 @@
+{
+  "name": "newrelic-issue-reproducing",
+  "version": "1.0.0",
+  "description": "A repository for reproducing NewRelic Node Agent issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denver-HJS/newrelic-issue-reproducing.git"
+  },
+  "keywords": [
+    "newrelic"
+  ],
+  "author": "denver-HJS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denver-HJS/newrelic-issue-reproducing/issues"
+  },
+  "homepage": "https://github.com/denver-HJS/newrelic-issue-reproducing#readme",
+  "dependencies": {
+    "got": "^10.6.0",
+    "newrelic": "^6.4.2"
+  }
+}
